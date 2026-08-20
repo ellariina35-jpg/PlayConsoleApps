@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Calendar base sheet (Centered in 66dp zone, bounds ~26 to 82) -->
+    <!-- Calendar Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,32 h44 c3.31,0 6,2.69 6,6 v38 c0,3.31 -2.69,6 -6,6 h-44 c-3.31,0 -6,-2.69 -6,-6 v-38 c0,-3.31 2.69,-6 6,-6 z" />
+    
+    <!-- Calendar Top Header (Primary Blue / Teal) -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M32,32 h44 c3.31,0 6,2.69 6,6 v10 h-56 v-10 c0,-3.31 2.69,-6 6,-6 z" />
+        
+    <!-- Calendar Rings / Binder pegs -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M38,27 c1.1,0 2,0.9 2,2 v6 c0,1.1 -0.9,2 -2,2 s-2,-0.9 -2,-2 v-6 c0,-1.1 0.9,-2 2,-2 z
+                          M70,27 c1.1,0 2,0.9 2,2 v6 c0,1.1 -0.9,2 -2,2 s-2,-0.9 -2,-2 v-6 c0,-1.1 0.9,-2 2,-2 z" />
+
+    <!-- Calendar Grid Workday Dots -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M37,56 a2.5,2.5 0 1,0 0.01,0 z
+                          M54,56 a2.5,2.5 0 1,0 0.01,0 z
+                          M37,68 a2.5,2.5 0 1,0 0.01,0 z" />
+
+    <!-- Active Synchronized Workday Badge (Emerald Green with Checkmark) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M67,64 a10,10 0 1,0 0.01,0 z" />
+        
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M63.5,64.2 l2.3,2.3 l5.4,-5.4 c0.4,-0.4 1,-0.4 1.4,0 c0.4,0.4 0.4,1 0,1.4 l-6.1,6.1 c-0.4,0.4 -1,0.4 -1.4,0 l-3,-3 c-0.4,-0.4 -0.4,-1 0,-1.4 c0.4,-0.4 1,-0.4 1.4,0 z" />
+
+    <!-- Google Calendar sync indicator small accent -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M49,68 a4,4 0 1,0 0.01,0 z" />
+</vector>
