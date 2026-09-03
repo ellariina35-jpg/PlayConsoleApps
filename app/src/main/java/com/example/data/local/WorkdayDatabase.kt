@@ -20,7 +20,9 @@ abstract class WorkdayDatabase : RoomDatabase() {
                     context.applicationContext,
                     WorkdayDatabase::class.java,
                     "workday_database"
-                ).build()
+                )
+                    .allowMainThreadQueries()
+                    .build()
                 INSTANCE = instance
                 instance
             }

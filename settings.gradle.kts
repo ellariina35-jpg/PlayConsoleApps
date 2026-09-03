@@ -1,3 +1,5 @@
+System.setProperty("javax.xml.bind.JAXBContextFactory", "com.sun.xml.bind.v2.ContextFactory")
+
 pluginManagement {
   repositories {
     google {
